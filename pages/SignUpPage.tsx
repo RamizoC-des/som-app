@@ -61,6 +61,7 @@ const SignUpPage: React.FC = () => {
               <option value="youth">{t('youthOption')}</option>
               <option value="women">{t('womenOption')}</option>
               <option value="pwd">{t('pwdOption')}</option>
+              <option value="pwd">{t('Other')}</option>
             </select>
           </div>
           <style>{`.input-field { box-shadow: none; appearance: none; border: 1px solid #d1d5db; border-radius: 0.25rem; width: 100%; padding: 0.75rem 1rem; color: #374151; line-height: 1.25; } .input-field:focus { outline: none; box-shadow: 0 0 0 2px #0a9396; }`}</style>
